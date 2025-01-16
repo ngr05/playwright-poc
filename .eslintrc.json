@@ -1,0 +1,12 @@
+{
+    "extends": ["prettier", "@flutteruki-gaming/eslint-config-flutteruki-gaming"],
+    "plugins": ["prettier"],
+    "rules": {
+        "prettier/prettier": "error"
+    },
+    "env": {
+        "node": true,
+        "jest": true
+    },
+    "ignorePatterns": ["coverage/", "target/"]
+}
