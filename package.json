@@ -1,22 +1,26 @@
 {
-    "name": "playwright-poc",
-    "version": "1.0.0",
-    "description": "Proof of concept for running tests with Playwright against GFE",
-    "main": "index.js",
-    "scripts": {
-        "test": "playwright test",
-        "test:debug": "playwright test --debug",
-        "test:ui": "playwright test --ui"
-    },
-    "repository": {
-        "type": "git",
-        "url": "git+https://github.com/ngr05/playwright-poc.git"
-    },
-    "keywords": [],
-    "author": "Nick Green <Nicholas.Green@flutteruki.com>",
-    "license": "ISC",
-    "bugs": {
-        "url": "https://github.com/ngr05/playwright-poc/issues"
-    },
-    "homepage": "https://github.com/ngr05/playwright-poc#readme"
+  "name": "playwright-poc",
+  "version": "1.0.0",
+  "description": "Proof of concept for running tests with Playwright against GFE",
+  "main": "index.js",
+  "scripts": {
+    "test": "playwright test",
+    "test:debug": "playwright test --debug",
+    "test:ui": "playwright test --ui"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ngr05/playwright-poc.git"
+  },
+  "keywords": [],
+  "author": "Nick Green <Nicholas.Green@flutteruki.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ngr05/playwright-poc/issues"
+  },
+  "homepage": "https://github.com/ngr05/playwright-poc#readme",
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.7"
+  }
 }
