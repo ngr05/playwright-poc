@@ -4,11 +4,6 @@
     "description": "Proof of concept for running tests with Playwright against GFE",
     "main": "index.js",
     "scripts": {
-        "lint": "eslint .",
-        "lint:fix": "eslint . --fix",
-        "prettier:check": "prettier . --check",
-        "prettier:fix": "prettier . --write",
-        "pre-staged": "npm run lint-fix && npm run prettier-fix",
         "test": "playwright test",
         "test:debug": "playwright test --debug",
         "test:ui": "playwright test --ui"
@@ -23,17 +18,5 @@
     "bugs": {
         "url": "https://github.com/ngr05/playwright-poc/issues"
     },
-    "homepage": "https://github.com/ngr05/playwright-poc#readme",
-    "devDependencies": {
-        "@flutteruki-gaming/eslint-config-flutteruki-gaming": "^1.9.2",
-        "@playwright/test": "^1.49.1",
-        "@types/node": "^22.10.6",
-        "eslint": "^8.57.1",
-        "eslint-config-prettier": "^8.10.0",
-        "eslint-plugin-import": "^2.31.0",
-        "eslint-plugin-prettier": "^4.2.1",
-        "eslint-plugin-unused-imports": "^2.0.0",
-        "prettier": "^2.8.8",
-        "ts-node": "^10.9.2"
-    }
+    "homepage": "https://github.com/ngr05/playwright-poc#readme"
 }
