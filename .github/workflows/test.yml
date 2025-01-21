@@ -10,7 +10,7 @@ jobs:
   # Matrix Definitions
   ###############################################
   create-test-matrix:
-    runs-on: ubuntu-self-hosted
+    runs-on: ubuntu-latest
     timeout-minutes: 2
     outputs:
       matrix: ${{ steps.test-matrix.outputs.matrix }}

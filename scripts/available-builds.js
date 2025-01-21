@@ -16,7 +16,7 @@ const availableBuilds = [
         domain: "betfair",
         tlds: ["com"],
         useStorybook: true,
-        playwrightEnabled: true // Potential new field to determine if the tests are available against the product
+        // playwrightEnabled: true // Potential new field to determine if the tests are available against the product
     },
     {
         brand: "betfair",
@@ -173,7 +173,7 @@ const availableBuilds = [
         domain: "paddypower",
         tlds: ["com"],
         useStorybook: true,
-        playwrightEnabled: true // Potential new field to determine if the tests are available against the product
+        // playwrightEnabled: true // Potential new field to determine if the tests are available against the product
     },
     /**
      * SkyBet builds
